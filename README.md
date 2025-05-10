@@ -29,6 +29,7 @@ Open your terminal and run:
 ```bash
 sudo apt update
 sudo apt install -y nmap
+```
 
 ### Folder Structure
 
@@ -80,9 +81,3 @@ nmap -A $target | tee -a $filename
 
 echo -e "\nScan completed. Check the file: $filename"
 ```
-
-
-cd nmap-bash-scanner
-```
-
-Copy your project files (`scan.sh`, `README.md`, `LICENSE`, etc.) into this folder.
