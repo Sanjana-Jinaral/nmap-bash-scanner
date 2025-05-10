@@ -1,0 +1,11 @@
+Running Ping Scan...
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-10 12:49 EDT
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.0010s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+Nmap done: 1 IP address (1 host up) scanned in 0.26 seconds
+
+Running Port Scan...
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-10 12:49 EDT
+Stats: 0:01:37 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 5.00% done; ETC: 13:21 (0:30:42 remaining)
