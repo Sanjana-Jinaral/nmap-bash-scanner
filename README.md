@@ -81,45 +81,7 @@ nmap -A $target | tee -a $filename
 echo -e "\nScan completed. Check the file: $filename"
 ```
 
-## Project Milestones
 
-- [x] Setup Nmap and Bash environment
-- [x] Write the core script (`scan.sh`)
-- [x] Test on multiple IPs/domains
-- [x] Upload to GitHub with README
-- [ ] Add advanced features (like HTML reports or email alerts) – Optional
-
-## GitHub Submission Guidelines
-
-To submit your project to GitHub, follow these steps:
-
-### Step 1: Create a GitHub Account
-If you don’t have a GitHub account, go to [GitHub](https://github.com/) and sign up for a free account.
-
-### Step 2: Install Git
-Make sure you have Git installed on your machine. You can download it from [git-scm.com](https://git-scm.com/).
-
-### Step 3: Create a New Repository
-1. Log in to your GitHub account.
-2. Click on the "+" icon in the top right corner and select "New repository."
-3. Name your repository (e.g., `nmap-bash-scanner`).
-4. Add a description (optional).
-5. Choose "Public" for visibility.
-6. Click "Create repository."
-
-### Step 4: Clone the Repository
-Open your terminal and run the following command to clone the repository to your local machine:
-
-```bash
-git clone https://github.com/yourusername/nmap-bash-scanner.git
-```
-
-Replace `yourusername` with your GitHub username.
-
-### Step 5: Add Your Project Files
-Navigate to the cloned repository folder:
-
-```bash
 cd nmap-bash-scanner
 ```
 
